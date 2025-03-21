@@ -16,7 +16,7 @@ A website to share images with other people. Build your own portfolio of images 
 
 This webpage is deployed to GitHub Pages
 
-- Deployment Link:
+- [Deployment Link:](https://cnxva.github.io/se_project_spots/)
 
 - Intro
 - Figma
