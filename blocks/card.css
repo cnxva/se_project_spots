@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 0px;
 }
 
 .card__like-btn {
@@ -26,13 +27,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0%;
   color: #212121;
-  margin: 12px;
+  margin: 0px;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #212121;
+    margin: 0px;
   }
 }

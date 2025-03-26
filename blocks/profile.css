@@ -16,13 +16,12 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 32px;
-  letter-spacing: 0%;
   color: #212121;
+  margin-top: 0px;
   margin-bottom: 12px;
   max-width: 420px;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -33,13 +32,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
-  letter-spacing: 0%;
   color: #212121b2;
   margin: 0;
   max-width: 420px;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -60,6 +57,11 @@
   width: fit-content;
   background: transparent;
   padding: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #212121;
 }
 
 .profile__add-btn {
@@ -67,7 +69,7 @@
   height: 52px;
   border-radius: 8px;
   padding-top: 8px;
-  gap: 18px;
+  gap: 8px;
   margin-left: auto;
   background-color: #212121;
   color: #fcf5e5;
@@ -77,7 +79,9 @@
   align-self: flex-end;
   text-align: center;
   padding: 0px;
-  line-height: 1px;
+  line-height: 100%;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 627px) {
@@ -100,8 +104,6 @@
   .profile__column {
     text-align: center;
     margin-right: 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
@@ -109,11 +111,11 @@
     margin-bottom: 6px;
     font-size: 20px;
     max-width: 288px;
+    line-height: 100%;
   }
 
   .profile__description {
     margin-bottom: 32px;
-    font-size: 16px;
     max-width: 288px;
   }
 
