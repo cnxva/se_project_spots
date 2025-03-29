@@ -29,6 +29,10 @@
   line-height: 24px;
   color: #212121;
   margin: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 220px;
 }
 
 @media screen and (max-width: 627px) {
@@ -37,11 +41,7 @@
   }
 
   .card__title {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-    color: #212121;
-    margin: 0px;
   }
 }
