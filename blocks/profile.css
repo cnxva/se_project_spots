@@ -62,12 +62,11 @@
   font-size: 16px;
   line-height: 100%;
   color: #212121;
-  margin-bottom: 20px;
   cursor: pointer;
 }
 
 .profile__edit-btn:hover {
-  background-color: #f0f0f0;
+  opacity: 70%;
 }
 
 .profile__add-btn {
@@ -92,9 +91,8 @@
   cursor: pointer;
 }
 
-.profile__a.profile__add-btn {
-  background-color: #f0f0f0;
-}
+.profile__add-btn:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
@@ -130,6 +128,10 @@
   .profile__description {
     margin-bottom: 32px;
     max-width: 288px;
+  }
+
+  .profile__edit-btn {
+    margin-bottom: 20px;
   }
 
   .profile__add-btn {
